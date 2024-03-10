@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 import django
 from pathlib import Path
-from .logging import LOGGING
 from dotenv import load_dotenv
 
 
