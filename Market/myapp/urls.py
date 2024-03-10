@@ -1,6 +1,5 @@
 from django.urls import path
-from .views import index
-from .views import basket, sorted_basket
+from .views import index, basket, sorted_basket
 
 
 
