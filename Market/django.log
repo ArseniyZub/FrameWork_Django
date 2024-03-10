@@ -1,0 +1,164 @@
+INFO 2024-02-26 22:15:03,190 autoreload 10384 10724 Watching for file changes with StatReloader
+ERROR 2024-02-26 22:15:05,476 log 10384 12804 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\Market\myapp\views.py", line 8, in index
+    return render(request, "myapp/templates/myapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templates/myapp/index.html
+ERROR 2024-02-26 22:15:05,489 basehttp 10384 12804 "GET /index/ HTTP/1.1" 500 83096
+ERROR 2024-02-26 22:15:08,195 log 10384 12804 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\Market\myapp\views.py", line 8, in index
+    return render(request, "myapp/templates/myapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templates/myapp/index.html
+ERROR 2024-02-26 22:15:08,198 basehttp 10384 12804 "GET /index/ HTTP/1.1" 500 83096
+ERROR 2024-02-26 22:15:08,682 log 10384 12804 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\Market\myapp\views.py", line 8, in index
+    return render(request, "myapp/templates/myapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templates/myapp/index.html
+ERROR 2024-02-26 22:15:08,685 basehttp 10384 12804 "GET /index/ HTTP/1.1" 500 83096
+ERROR 2024-02-26 22:17:02,397 log 10384 12804 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\Market\myapp\views.py", line 8, in index
+    return render(request, "myapp/templates/myapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templates/myapp/index.html
+ERROR 2024-02-26 22:17:02,399 basehttp 10384 12804 "GET /index/ HTTP/1.1" 500 83233
+ERROR 2024-02-26 22:17:03,182 log 10384 12804 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\Market\myapp\views.py", line 8, in index
+    return render(request, "myapp/templates/myapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templates/myapp/index.html
+ERROR 2024-02-26 22:17:03,185 basehttp 10384 12804 "GET / HTTP/1.1" 500 83161
+WARNING 2024-02-26 22:17:06,881 log 10384 12804 Not Found: /basket
+WARNING 2024-02-26 22:17:06,881 basehttp 10384 12804 "GET /basket HTTP/1.1" 404 2942
+WARNING 2024-02-26 22:18:42,234 log 10384 12804 Not Found: /sorted_basket
+WARNING 2024-02-26 22:18:42,234 basehttp 10384 12804 "GET /sorted_basket HTTP/1.1" 404 2963
+WARNING 2024-02-26 22:22:57,795 log 10384 12804 Not Found: /handle
+WARNING 2024-02-26 22:22:57,796 basehttp 10384 12804 "GET /handle HTTP/1.1" 404 2942
+WARNING 2024-02-26 22:22:59,113 log 10384 12804 Not Found: /handle
+WARNING 2024-02-26 22:22:59,113 basehttp 10384 12804 "GET /handle HTTP/1.1" 404 2942
+ERROR 2024-02-26 22:24:03,297 log 10384 12804 Internal Server Error: /homework3/
+Traceback (most recent call last):
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\Market\myapp\views.py", line 8, in index
+    return render(request, "myapp/templates/myapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zubko\project1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/templates/myapp/index.html
+ERROR 2024-02-26 22:24:03,299 basehttp 10384 12804 "GET /homework3/ HTTP/1.1" 500 83007
+INFO 2024-02-26 22:33:40,809 autoreload 10384 10724 C:\Users\zubko\project1\Market\myapp\migrations\intitial.py changed, reloading.
+INFO 2024-02-26 22:33:41,353 autoreload 13160 7484 Watching for file changes with StatReloader
+INFO 2024-02-26 22:34:01,685 autoreload 13160 7484 C:\Users\zubko\project1\Market\myapp\migrations\intitial.py changed, reloading.
+INFO 2024-02-26 22:34:02,222 autoreload 9388 9244 Watching for file changes with StatReloader
+INFO 2024-02-26 22:57:19,582 autoreload 13788 16244 Watching for file changes with StatReloader
+INFO 2024-02-26 22:57:52,288 autoreload 13788 16244 C:\Users\zubko\project1\Market\myapp\urls.py changed, reloading.
+INFO 2024-02-26 22:57:52,807 autoreload 11120 11600 Watching for file changes with StatReloader
+INFO 2024-02-26 23:00:50,924 autoreload 11120 11600 C:\Users\zubko\project1\Market\myapp\views.py changed, reloading.
+INFO 2024-02-26 23:00:51,453 autoreload 12952 10584 Watching for file changes with StatReloader
+INFO 2024-02-26 23:01:04,186 autoreload 12952 10584 C:\Users\zubko\project1\Market\myapp\views.py changed, reloading.
+INFO 2024-02-26 23:01:04,712 autoreload 9444 7464 Watching for file changes with StatReloader
+INFO 2024-02-26 23:03:10,384 autoreload 9444 7464 C:\Users\zubko\project1\Market\myapp\views.py changed, reloading.
+INFO 2024-02-26 23:03:10,931 autoreload 11892 8144 Watching for file changes with StatReloader
+INFO 2024-02-26 23:09:06,721 autoreload 17128 9804 Watching for file changes with StatReloader
+INFO 2024-02-26 23:09:25,700 autoreload 17128 9804 C:\Users\zubko\project1\Market\myapp\views.py changed, reloading.
+INFO 2024-02-26 23:09:26,240 autoreload 2116 6324 Watching for file changes with StatReloader
+INFO 2024-02-26 23:09:37,980 basehttp 2116 10856 "GET / HTTP/1.1" 200 149
+WARNING 2024-02-26 23:09:41,887 log 2116 10856 Not Found: /bastek
+WARNING 2024-02-26 23:09:41,888 basehttp 2116 10856 "GET /bastek HTTP/1.1" 404 2942
+WARNING 2024-02-26 23:09:46,620 log 2116 10856 Not Found: /basket
+WARNING 2024-02-26 23:09:46,620 basehttp 2116 10856 "GET /basket HTTP/1.1" 404 2942
+WARNING 2024-02-26 23:09:47,916 log 2116 10856 Not Found: /basket
+WARNING 2024-02-26 23:09:47,916 basehttp 2116 10856 "GET /basket HTTP/1.1" 404 2942
+WARNING 2024-02-26 23:14:49,188 log 2116 808 Not Found: /basket/1/
+WARNING 2024-02-26 23:14:49,189 basehttp 2116 808 "GET /basket/1/ HTTP/1.1" 404 2951
+WARNING 2024-02-26 23:14:58,837 log 2116 808 Not Found: /basket/3/
+WARNING 2024-02-26 23:14:58,838 basehttp 2116 808 "GET /basket/3/ HTTP/1.1" 404 2951
+WARNING 2024-02-26 23:15:10,856 log 2116 808 Not Found: /basket/user_sorted/2/7/
+WARNING 2024-02-26 23:15:10,857 basehttp 2116 808 "GET /basket/user_sorted/2/7/ HTTP/1.1" 404 2993
